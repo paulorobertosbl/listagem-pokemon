@@ -29,11 +29,11 @@ botaoAlterarTema.addEventListener("click", () => {     // () => = arrow function
     if (modoEscuroEstaAtivo) {
         //body.classList.remove("modo-escuro");
         
-        imagemBotaoTrocaDeTema.setAttribute("src", "./imagens/moon.png");
+        imagemBotaoTrocaDeTema.setAttribute("src", "./src/imagens/moon.png");
 
     } else {
         //body.classList.add("modo-escuro");     // class list = lista das classes que tem no elemento | .add("") = adiciona classe
 
-        imagemBotaoTrocaDeTema.setAttribute("src", "./imagens/sun.png");
+        imagemBotaoTrocaDeTema.setAttribute("src", "./src/imagens/sun.png");
     }
 });
